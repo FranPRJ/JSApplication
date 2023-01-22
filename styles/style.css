@@ -1,0 +1,35 @@
+.menu{
+    line-height: 50px;
+    text-align: center;
+    width: 300px;
+}
+
+.menuUL{
+    background-color:cadetblue;
+}
+h1.inicio-home{
+    color: #ffff;
+}
+
+li.menuListado{
+    list-style-type: none;
+    padding-right: 20px;
+    color: white;
+}
+
+a.link{
+    font-size:20px;
+    color: white;
+    text-decoration: none;
+}
+
+div.menu{
+    margin-left: auto;
+	margin-right: auto;
+    margin-top: 10%;
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
