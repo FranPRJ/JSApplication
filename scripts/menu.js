@@ -1,16 +1,9 @@
-function makeIceCoffee( milk, coffee, ice, sugar ) {
-    let instructions = "Boil water, ";
-
-    instructions+= "add "+ coffee+ " spoons of coffee, ";
-
-    instructions+= "add "+ milk+ "% of milk, ";
-
-    instructions+= "add "+ ice+ " cubes of ice, ";
-
-    instructions+= "and add "+ sugar+ " spoons of sugar. ";
-
-    return instructions;
-
-};
-
-console.log( makeIceCoffee(30, 2, 5, 3) );
+function openNav() {
+    document.getElementById("sidepanel").style.width = "280px";
+    document.getElementById("contenido").style.marginLeft = "250px";
+  }
+  
+  /* Set the width of the sidebar to 0 (hide it) */
+  function closeNav() {
+    document.getElementById("sidepanel").style.width = "0";
+  }

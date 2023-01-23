@@ -9,53 +9,51 @@
     </head>
     
     <body>
-        <header class="icono-nav">
-            <img src="/images/bx-menu.svg" alt="icono-nav">
-        </header>
-        <div class="icono-nav">
+        
+        <div id="sidepanel" class="sidepanel-menu">
             <ul class="box-menu-nav"> 
-                <li class="listado-menu-nav"> 
-                    <a href="#acerca-nosotros" class="listado">Acerca de nosotros</a>
-                </li>
-                <li class="listado-menu-nav"> 
-                    <a href="#aranceles" class="listado">Aranceles</a>
-                </li>
-                <li class="listado-menu-nav"> 
-                    <a href="#faq" class="listado">Preguntas frecuentes</a>
-                </li>
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#acerca-nosotros" class="listado">Acerca de nosotros</a>
+                <a href="#aranceles" class="listado">Aranceles</a>
+                <a href="#faq" class="listado">Preguntas frecuentes</a>
             </ul>
         </div>
-        <div class="inicio-home">
-            <h1> Bienvenid@ a PideTuHora </h1>
-            <h2 class="">¿Qué desea hacer?</h2>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+        <div id = "contenido">
+            <div class="inicio-home">
+                <h1> Bienvenid@ a PideTuHora </h1>
+                <h2 class="">¿Qué desea hacer?</h2>
+            </div>
+            
+            <div class = "menu">
+                <ul class = "menuUL">
+                    <li class = "menuListado">
+                        <a href="#reservar-hora" class = "link"> Reservar hora</a> 
+                    </li>
+                    <li class = "menuListado">
+                        <a href="#consultar-hora" class = "link"> Consultar hora</a> 
+                    </li>
+                    <li class = "menuListado">
+                        <a href="#modificar-hora" class = "link"> Modificar hora</a> 
+                    </li>
+                    <li class = "menuListado">
+                        <a href="#eliminar-hora" class = "link"> Eliminar hora</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="acerca-nosotros"> 
+                <h2>Sobre PideTuHora</h2>
+                <h3>sdsad sdfsf sdfjasdjakd jsdkdks adjkadkas asdjewiuchew wdjisdjs kandicn sjdsjdhsjd jsjsiskd ksjdskdjs s asjajksj skksalks sojdsijdsi jsdisjdis jsdhisdjisjdi</h3>
+            </div>
+            <div class="aranceles">
+                <h2>Puedes descargar tus aranceles aquí</h2>
+            </div> 
+            <div class="faq">
+                <h2> preguntas frecuentes</h2>
+            </div> 
         </div>
         
-        <div class = "menu">
-            <ul class = "menuUL">
-                <li class = "menuListado">
-                    <a href="#reservar-hora" class = "link"> Reservar hora</a> 
-                </li>
-                <li class = "menuListado">
-                    <a href="#consultar-hora" class = "link"> Consultar hora</a> 
-                </li>
-                <li class = "menuListado">
-                    <a href="#modificar-hora" class = "link"> Modificar hora</a> 
-                </li>
-                <li class = "menuListado">
-                    <a href="#eliminar-hora" class = "link"> Eliminar hora</a>
-                </li>
-            </ul>
-        </div>
-        <div class="acerca-nosotros"> 
-            <h1>Sobre PideTuHora</h1>
-            <h3>sdsad sdfsf sdfjasdjakd jsdkdks adjkadkas asdjewiuchew wdjisdjs kandicn sjdsjdhsjd jsjsiskd ksjdskdjs s asjajksj skksalks sojdsijdsi jsdisjdis jsdhisdjisjdi</h3>
-        </div>
-        <div class="aranceles">
-            Puedes descargar tus aranceles aquí
-        </div> 
-        <div class="faq">
-            preguntas frecuentes
-        </div> 
         <script src="scripts/menu.js"></script>
     </body>
 </html>
